@@ -283,7 +283,7 @@ function cron_plugins()
   end
 
   -- Called again in 5 mins
-  postpone (cron_plugins, false, 1*60.0)
+  postpone (cron_plugins, false, 5*60.0)
 end
 
 -- Start and load values
