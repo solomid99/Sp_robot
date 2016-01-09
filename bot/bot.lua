@@ -235,7 +235,7 @@ function create_config( )
   print ('saved config into ./data/config.lua')
 end
 
-function on_our_id (115143058)
+function on_our_id (id)
   our_id = id
 end
 
@@ -287,7 +287,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 115143058
 now = os.time()
 math.randomseed(now)
 started = false
